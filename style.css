@@ -12,6 +12,7 @@ body {
 
 }
 
+/*mobile */
 .container-principal {
     background-image: url(./bg.png);
     background-size: cover;
@@ -100,4 +101,39 @@ header {
     background-color: green;
     border-radius: 0;
     margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .container-logo img {
+        width: 10%;
+    }
+
+    .container-cta-2-content {
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    header {
+        padding: 30px 100px;
+        justify-content: space-between;
+    }
+
+    .container-logo img {
+        width: 20%;
+    }
+
+    .cta-button-default a {
+        padding: 10px 25px;
+        border-radius: 5px;
+    }
+
 }
