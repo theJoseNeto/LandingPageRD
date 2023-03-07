@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Poppins;
+    border-radius: 10px;
+    /* border: solid; */
+}
+
+body {
+    background-color: black;
+
+}
+
+.container-principal {
+    background-image: url(./bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 85vh;
+}
+
+.container-secundary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.container-logo img {
+    width: 50%;
+}
+
+.cta-button-default a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: red;
+    padding: 17px 45px;
+    border-radius: 10px;
+}
+
+.container-cta-2 {
+    font-size: 115%;
+    padding: 80px 40px 80px 20px;
+}
+
+.container-cta-2 p {
+    width: 80vw;
+}
+
+
+.cta-button-default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-section .row-1 {
+    border: solid rgba(255, 255, 255, 0.082);
+    margin: 10px 5px;
+}
+
+.cta-section .row-1,
+.cta-section .row-2 h3 {
+    text-align: center;
+}
+
+.cta-section .row-1,
+.cta-section .row-2 {
+    padding: 45px;
+}
+
+.cta-section span,
+.cta-section .row-2 h3 {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.cta-section .row-2 h3 {
+    letter-spacing: 1px;
+}
+
+.cta-section .row-2 ul {
+    list-style: none;
+}
+
+.cta-section .row-2 ul li {
+    font-weight: 700;
+    padding: 10px;
+    background-color: green;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
